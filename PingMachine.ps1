@@ -1,17 +1,12 @@
 ﻿<#
  .Note
     Author : Rafael,kun,Vincent
-    Version : 1.0.0
+    Version : 1.0.1
+    Array problem fixed, Text file print properly.
 #>
 Clear
 $IP = Read-Host -Prompt 'Ping'
 $Attemp = Read-Host -Prompt 'Times of Attemp'
-<#
-$Output = ''
-$Succeed = 0
-$Failure = 0
-$time = 0  
-#>
 $Output_arr = @()
 While ($Attemp -gt 0){
    $time += 1
